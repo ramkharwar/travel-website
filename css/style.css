@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    padding: 10px 20px 10px 20px;
+}
+
+.header {
+    background-image: url(../Images/kevin-ianeselli-ebnlHkqfUHY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+
+.header h2 {
+    font-size: 36px;
+    font-family: cinzel;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    float: left;
+    
+}
+
+.login-btn {
+    width: 170px;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+    float: right;
+    color: #fff;
+}
+
+.header h1 {
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header p {
+    margin-top: 18px;
+}
+.search-form {
+   display: flex;
+   justify-content: center;
+   padding: 15px 0px;
+}
+
+input[type=text] {
+        width: 20%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-right: none;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 05px 12px 05px;
+        text-align: left;
+    
+}
+
+.input-group {
+    border-radius: 0px;
+    background-color: #fff;
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+
+}
+
+button {
+    padding: 12px 25px 12px 25px;
+    border: none;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+.feature-section{
+    padding: 80px 0px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.feature-section h2 {
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.destination-card {
+    margin: 0px 20px;
+    background-color: azure;
+}
+
+.destination-card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border: none;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.destination-card h3 {
+    margin-top: 25px;
+    padding: 0px 15px;
+    font-size: 22px;
+    color: black;
+}
+
+.destination-card p {
+    margin-top: 8px;
+    padding: 0px 15px;
+}
+
+.destination-card button {
+    margin: 30px 15px;
+    padding: 15px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.gallery{
+    width:100%;
+
+}
+
+.feature-gallery{
+    padding: 80px 0px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+
+  }
+
+.feature-gallery h3 {
+    text-align: center;
+}
+
+.gallery-card-1, .gallery-card-2, .gallery-card-3, .gallery-card-4 {
+    margin: 0px 20px 0px 20px;
+    padding: 50px 0px 50px 0px;
+    border-radius: 7px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gallery-card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.gallery-card-1 {
+    background-image: url(../Images/daniel-salcius-hGSzNiBwnRg-unsplash.jpg);
+}
+
+.gallery-card-2 {
+    background-image: url(../Images/datingscout-WB294UEtDhU-unsplash.jpg);
+}
+
+.gallery-card-3 {
+    background-image: url(../Images/fatima-zehra-ZgiPj8CLz8A-unsplash.jpg);
+}
+
+.gallery-card-4 {
+    background-image: url(../Images/ilya-orehov-3ZWSDuaE_Go-unsplash.jpg);
+}
+
+.offers {
+    background-image: url(../Images/kevin-ianeselli-ebnlHkqfUHY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0px 100px 0px;
+    margin: 80px 0px;
+    align-items: center;
+}
+
+.offer-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 100px 0px;
+    background-color: rgba(121, 141, 129, 0.432);
+}
+.offer-item {
+    width: 60%;
+    align-items: center;
+}
+.offer-item h2 {
+    text-align: start;
+}
+
+.offer-button {
+    justify-content: flex-end;
+}
+.offer-button button {
+    background-color: aqua;
+    align-items: center
+}
